@@ -1,0 +1,19 @@
+.color-name{ /*Não é muito indicado usar apenas cores por nome*/
+    color:blue
+}
+
+.color-hexa{
+    color: #775d5b; /*#000 - preta e FFF - branca*/
+}
+
+.color-rgb{
+    color: rgb(13, 140, 243)
+}
+
+.color-rgba{
+    color: rgba(0, 0, 255, 0.6) /*a diferença para o RGB é a opacidade da cor*/
+}
+
+.color-hsl{
+    color: hsl(100, 20%, 40%);    /*(0-255, 0-100%, 0-100%)*/
+}

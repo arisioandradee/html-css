@@ -1,0 +1,10 @@
+.minhaClasse {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+}
+
+#paragrafo{
+    color: orange;
+    background-color: red;
+}

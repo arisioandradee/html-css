@@ -1,0 +1,18 @@
+/*.background{
+    background-image: url(./img/wallpaper.jpg);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}*/
+
+.not-centered,
+.centerd {
+    height: 1000px;
+    width: 1000px;
+    background-image: url(./img/wallpaper.jpg);
+}
+
+.centerd{
+    background-position: center;
+    background-size: cover;
+}
