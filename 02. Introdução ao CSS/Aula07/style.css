@@ -1,0 +1,107 @@
+/*Largura e altura*/
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+.height-widt{
+    height: 300px;
+    background-color: blue;
+}
+.no-padding{
+    background-color: #333;
+    color: white;
+}
+
+.padding{
+    background-color: #333;
+    color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.padding-individual{
+    background: green;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.shorthand-padding{
+    padding: 30px 10px 25px 5px;
+    background-color:coral;
+}
+
+.padding-width{
+    background-color:darkviolet;
+    color: #FFF;
+    width: 250px;
+    padding: 50px;
+}
+
+.padding-width2{ 
+    background-color:rgb(156, 24, 212);
+    color: #FFF;
+    width: 250px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.border{
+    border: 5px solid blue;
+    padding: 10px;
+}
+
+.border2{
+    border: 2px dashed green;
+    padding: 10px
+}
+
+/*Borda individual*/
+.border-left{
+    border-left: 3px solid black;
+    background-color: yellow;
+}
+
+.border-right{
+    border-right: 5px dashed yellow;
+    background-color: black;
+    color: yellow;
+}
+
+.borda-arredondada{
+    border-radius: 20px;
+    padding-left: 3px;
+    background-color: red
+}
+
+.margin{
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.margin-top{
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.margin-shorthand{
+    margin: 10px 20px 50px 10px;
+    background-color: blue;
+    color: white;
+}
+
+.box-model{
+    background-color: #000;
+    color: #FFF;
+    box-sizing: box-model;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 50px 0px 50px;
+}

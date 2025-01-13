@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Box Model</title>
+    <!--Box model consiste em: altura, largura, paddind, border, margin-->
+</head>
+<body>
+    <!--Altura e largura são o core do box model-->
+    <div class="height-width"></div>
+    <div class="height-width2"></div>
+
+    <!--Padding é o espaço entre o conteudo e a borda do elemento, espaçamento interno-->
+    <div class="no-padding"><p>Esse não tem padding!</p></div>
+    <div class="padding">Esse tem padding!</div>
+
+    <!--O pading pode ser: top, left, right, bottom-->
+    <div class="padding-individual"><p>Esse elemento tem paddings diferentes!</p></div>
+
+    <!--Shorthand properties: adiciona padding em todas as direções com apenas uma regra: top, right, bottom, left-->
+    <div class="shorthand-padding"><p>Esse elemento está formatado com o shrothand-padding</p></div>
+
+    <!--Padding e width: padding é adicionada a largura do elemento, podendo aumentar o tamanho e prejudicar os calculos em layouts perfeitos, isso pode ser resolvido com a regra box-sizing e o valor de border-box -->
+    <div class="padding-width"><p>Esse elemento está formatado com padding/width</p></div>
+    <div class="padding-width2"><p>Esse elemento está formatado com padding/width²</p></div>
+
+    <!--Borda: é o espaço entre o padding e margin(interno e externo) / tamanho, aspecto e cor da borda-->
+    <div class="border"><p>Esse elemento está formatado com borda!</p></div>
+    <div class="border2">Esse elemento está formatado com borda!</div>
+
+    <!--Lados individuiais da borda:top,ridht,bottom,left-->
+    <p class="border-left">Borda na esquerda</p>
+    <p class="border-right">Borda na direita</p>
+
+    <!--Borda arrendoda-->
+    <p class="borda-arredondada">Borda arredondada</p>
+
+    <!--Margin: espaçamento externo do elemento, pode ser individual/shorthand-->
+    <div class="margin"><p>Esse elemento está formatado com margin</p></div>
+    <div class="margin-top"><p>Esse elemento está formatado com margin no top</p></div>
+    <div class="margin-shorthand"><p>Esse elemento está formatado com margin estilo shorthand</p></div>
+
+    <!--Todos os elementos juntos-->
+    <div class="box-model"><p>Elementos usando todas as propriedades do box-model</p></div>
+
+</body>
+</html>
