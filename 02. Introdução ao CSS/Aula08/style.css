@@ -1,0 +1,129 @@
+/*Posições do texto*/
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+/*Decorações de texto*/
+.link{
+    text-decoration: none; /*removendo o underline padrão dos links / line through*/
+    color: #ff1493;
+}
+
+/*Transformações de texto*/
+.text-transform1{
+    text-transform: uppercase;
+}
+
+.text-transform2{
+    text-transform: lowercase;
+}
+
+/*Espaçamento entre letras*/
+.letter{
+    letter-spacing: 2px;
+}
+
+/*Fontes*/
+.font1{
+    font-family: fantasy;
+}
+
+.font2{
+    font-family: cursive;
+}
+
+.font3{
+    font-family: serif;
+}
+
+/*Estilos de fonte*/
+.italic{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px
+}
+
+.oblique{
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 40px
+}
+
+/*Display*/
+.inline-box1{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/*Invisible*/
+.invisible{
+    display: none;
+}
+
+/*Posições dos elementos*/
+.relative{
+    position: relative;
+    background-color: #ff1493;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    left: 25px;
+}
+
+.absolute{ /*é ligado ao elemento mais próximo, se nao tiver irá ser o boddy*/
+    position: absolute;
+    background-color: rgba(180, 34, 34, 0.667);
+    height: 100px;
+    width: 100px;
+}
+
+.fixed{ 
+    position: fixed;
+    background-color: #006400;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    right: 100px;
+}
+.sticky{
+    position: sticky;
+    background-color: #b4359f;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    right: 100px;
+}
+
+.abosulute3{
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.absolute4{
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    z-index: 3;
+}
+.absolute5{
+    top: 50px;
+    left: 50px;
+    background-color: #ff1493;
+    z-index: 2;
+}
