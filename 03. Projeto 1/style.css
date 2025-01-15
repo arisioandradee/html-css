@@ -1,0 +1,59 @@
+/*Body*/
+body{
+    background-color: #b4b2b2;
+}
+
+/*Div principal*/
+.principal{
+    background-color: #FFF;
+    margin: 50px;
+    height: 1500px;
+    box-sizing: border-box;
+    padding: 50px;
+    text-align: center;
+}
+
+.principal h1{
+    font-family: cursive
+}
+
+.p-incial{
+    font-style: oblique;
+}
+
+hr{
+    border: none;
+    border-top: 1px dashed #b4b2b2;
+}
+
+/*Um pouco sobre a banda*/
+.texto-offspring{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+/*Frase 1*/
+.frase{
+    background-color: #b4b2b2;
+    padding: 20px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.frase1{
+    text-align: left;
+    font-family:Georgia;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 0px 40px 0px 40px;
+    box-sizing: border-box;
+}
+
+.autor-frase{
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-style: oblique;
+}
