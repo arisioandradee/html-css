@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--ACTION / GET E POST-->
+    <h2>Formulários em HTML #2</h2>
+    <form action="register.php" method="POST">
+        <div>
+            <label>Digite seu e-mail:</label>
+            <input type="text">
+        </div>
+    </form>
+
+    <!--ATRIBUTO NAME-->
+    <h2>Formulários em HTML #3</h2>
+    <form action="register.php" method="POST" name="">
+        <div>
+            <label>Idade:</label>
+            <input type="text" name="age">
+        </div>
+    </form>
+
+    <!--ATRIBUTO DA LABEL-->
+    <h2>Formulários em HTML #4</h2>
+    <form action="register.php" method="POST" name="">
+        <div>
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+        </div>
+    </form>
+
+    <!--ENVIANDO DADOS DE FORMULÁRIO-->
+    <h2>Formulários em HTML #5</h2>
+    <form action="register.php" method="POST" name="">
+        <div>
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+
+    <!--ELEMENTO SELECT-->
+    <h2>Formulários em HTML #6</h2>
+    <form>
+        <div>
+            <label for="job">Selecione sua profissão:</label>
+            <select name="job" id="">
+                <option value="programador">Programador</option>
+                <option value="professor">Professor</option>
+                <option value="analista">Analista</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <!--ELEMENTO SELECTED-->
+    <h2>Formulários em HTML #7</h2>
+    <form>
+        <div>
+            <label for="contract">Você concorda com os termos do contrato?</label>
+            <select name="contract">
+                <option value="sim">Sim</option>
+                <option value="não" selected>Não</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <!--MULTIPLAS SELEÇOES-->
+    <h2>Formulários em HTML #8</h2>
+    <form>
+        <div>
+            <label for="pizza">Escolha o sabor: </label>
+            <select name="pizza" multiple>
+                <option value="calabresa">Calabresa</option>
+                <option value="mista">Mista</option>
+                <option value="frango">Frango</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
