@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <p>O flexbox é uma propriedade do display que condiciona elementos em um container. Ele deve ser considerado em relação ao elemento pai, onde os elementos filhos serão movimentados. Porém elementos filhos podem ter regras especificas</p> 
+
+    <div class="flex">
+        <p>Meu</p>
+        <p>Primeiro</p>
+        <p>Elemento</p>
+        <p>Na flex</p>
+    </div> <hr>
+
+    <p>Podemos mudar o comportamento inline do flex(row) alterando o flex-direction para column, assim os elementos ficarão em coluna</p>
+    <div class="flex-column">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+    </div> <hr>
+
+    <p>Com o flex wrap podemos escolher quantos elementos queremos por linha no display flex, assim as linhas respeitam a largura dos elementos</p>
+    <div class="flex-wrap">
+        <div class="box"><p>1</p></div>
+        <div class="box"><p>2</p></div>
+        <div class="box"><p>3</p></div>
+        <div class="box"><p>4</p></div>
+    </div> <hr>
+
+    <p>Com o Justify Content é possível mudar como o conteúdo é posicionado no eixo horizontal, como por exemplo: centrar elementos na horizontal utilizamos o center</p>
+    <div class="justify">
+        <div class="jbox"><p>1</p></div>
+        <div class="jbox"><p>2</p></div>
+        <div class="jbox"><p>3</p></div>
+    </div> <hr>
+
+    <p>Align Itens: permite mudar elementos na vertical, as propriedades tem vários valores, como o center</p>
+    <div class="align">
+        <div class="abox"><p>1</p></div>
+        <div class="abox"><p>2</p></div>
+        <div class="abox"><p>3</p></div>
+    </div> <hr>
+
+    <p>Gap: regra que serve para colocar espaçamento entre elementos no flex</p>
+    <div class="gap">
+        <div class="gbox"><p>1</p></div>
+        <div class="gbox"><p>2</p></div>
+        <div class="gbox"><p>3</p></div>
+        <div class="gbox"><p>4</p></div>
+        <div class="gbox"><p>5</p></div>
+        <div class="gbox"><p>6</p></div>
+    </div> <hr>
+
+    <p>Order: Podemos mudar a ordem dos elementos. Esta propriedade é utilizada nos elementos filhos, agora começamos com as regras que serão aplicadas aos elementos filhos e não ao elemento pai</p>
+    <div class="order">
+        <div class="gbox" id="three"><p>3</p></div>
+        <div class="gbox" id="one"><p>1</p></div>
+        <div class="gbox" id="two"><p>2</p></div>
+    </div> <hr>
+
+    <p>Grow: podemos mudar a proporção de um ou mais elementos filhos, a width precisa estar sem valor ou como automática. EX: Elemento com grow 2 cresce 2x mais que os outros elementos quando estiver se adaptando no container</p>
+    <div class="grow">
+        <div class="gbox"><p>1</p></div>
+        <div class="gbox big"><p>2</p></div>
+        <div class="gbox"><p>3</p></div>
+    </div> <hr>
+
+    <p>Basis: congifura a largura base do elemento, podemos trabalhar com Basis e Grow junta, o Grow vai preencher toda a largura e o Basis vai deixar vázia</p>
+    <div class="basis">
+        <div class="gbox"><p>1</p></div>
+        <div class="gbox big"><p>2</p></div>
+        <div class="gbox"><p>3</p></div>
+    </div> <hr>
+
+    <p>Shrink: é o oposto do Grow, ele diminui seu tamanho para manter o tamanho dos outros elementos</p>
+    <div class="shrink">
+        <div class="gbox"><p>1</p></div>
+        <div class="gbox small"><p>2</p></div>
+        <div class="gbox"><p>3</p></div>
+    </div> <hr>
+
+    <p>Flex shorthand: conseguimos configurar o Grow, Shrink e Basis colocando os valores nessa respectiva ordem. ex: flex: 2 1 100px</p>
+    <div class="shorthand">
+        <div class="gbox"><p>1</p></div>
+        <div class="gbox different"><p>2</p></div>
+        <div class="gbox"><p>3</p></div>
+    </div> <hr>
+
+    <p>Auto alinhamento</p>
+    <div class="auto-align">
+        <div class="gbox"><p>1</p></div>
+        <div class="gbox different"><p>2</p></div>
+        <div class="gbox"><p>3</p></div>
+    </div> <hr>
+</body>
+</html>

@@ -1,0 +1,151 @@
+.flex{
+    display: flex;
+    background-color: #DDD;
+}
+
+.flex-column{
+    display: flex;
+    background-color: #CCC;
+    flex-direction: column;
+}
+
+
+.flex-wrap{
+    display: flex;
+    background-color: #DDD;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 40px;
+    width: calc(50%);
+    text-align: center;
+}
+
+.justify{
+    display: flex;
+    justify-content: center;
+}
+
+.jbox {
+    width: 50px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.align {
+    align-items: center;
+    display: flex;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+.abox {
+    align-items: center;
+    width: 50px;
+    border: 1px solid red;
+    text-align: center; 
+}
+
+.gap {
+    display: flex;
+    border: 1px solid red;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gbox{
+    width: 32%;
+    border: 1px solid blue;
+}
+/*Order*/
+.order{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#one {
+    order: 1;
+}
+
+#two {
+    order: 2;
+}
+
+#three {
+    order: 3;
+}
+
+/*Grow*/
+.grow{
+    display: flex;
+    text-align: center;
+}
+
+.grow .gbox{
+    flex: 1; /*1 é o flex padrão*/
+}
+
+.grow .big {
+    flex: 2;
+}
+
+/*Basis*/
+.basis {
+    display: flex;
+}
+
+.basis .gbox{
+    flex-basis: 20px;
+}
+
+.basis .big{
+    flex-grow: 1;
+}
+
+/*Shrink*/
+.shrink{
+    display: flex;
+    text-align: center;
+}
+
+.shrink .gbox{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: auto;
+}
+
+.shrink .small{
+    flex-shrink: 2;
+}
+
+/*Shorthand*/
+.shorthand{
+    display: flex;
+    text-align: center;
+}
+
+.shorthand .gbox{
+    width: auto;
+    flex: 1 1 50px;
+}
+
+.shorthand .different{
+    flex: 3 1 400px;
+}
+
+/*Auto-alignment*/
+.auto-align {
+    height: 300px;
+    display: flex;
+    align-items: end;
+    text-align: center;
+}
+
+.auto-align .different {
+    align-self: center;
+}
